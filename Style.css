@@ -1,6 +1,11 @@
+@font-face {
+	font-family: 'Oldstyle numerals';
+	src: local('Bodoni 72 Oldstyle');
+	unicode-range: U+0030-0039;
+}
 body {
 	max-width: 960px; margin: auto; padding: 15px;
-	font-family: Baskerville; line-height: 130%;
+	font-family: 'Oldstyle numerals', Baskerville; line-height: 130%;
 }
 body, td {
 	font-size: 17pt;
@@ -14,8 +19,8 @@ body, td {
 .author {
 	font-variant: small-caps;
 }
-.numbers {
-	font-family: 'Bodoni 72 Oldstyle';
+.tabular-numerals {
+	font-family: Baskerville;
 }
 a {
 	color: black;
