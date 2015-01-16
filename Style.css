@@ -23,6 +23,14 @@ body, td {
 .tabular-numerals {
 	font-family: Baskerville;
 }
+.quote {
+	text-align: justify;
+	line-height: 125%;
+	margin: 0 23%;
+}
+.attribution {
+	text-align: right;
+}
 a {
 	color: black;
 }
