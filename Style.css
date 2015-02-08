@@ -20,6 +20,6 @@ sub { top:  0.4em; }
 .heading { font-variant: small-caps; font-weight: bold; }
 .author { font-variant: small-caps; }
 .tabular-numerals { font-family: Baskerville; }
-.epigraph { line-height: 115%; margin: 0 22%; }
+.epigraph { line-height: 115%; margin: 0 21%; }
 .epigraph p { margin-top: 0; margin-bottom: 0; }
 .attribution { text-align: right; }
