@@ -17,3 +17,4 @@ sup { top: -0.4em; }
 sub { top:  0.4em; }
 .heading { font-variant: small-caps; font-weight: bold; }
 .author { font-variant: small-caps; }
+#author { font-size: 16pt; }
