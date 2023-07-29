@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Oldstyle numerals';
+	src: local('Bodoni 72 Oldstyle');
+	unicode-range: U+0030-0039;
+}
+body {
+	max-width: 960px; margin: auto; padding: 15px;
+	font-family: 'Oldstyle numerals', Baskerville; line-height: 130%;
+}
+body, td { font-size: 17pt; }
+a { color: black; }
+hr { border: 0; height: 1px; background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
+img { max-width: 100%; }
+p { text-align: justify; hyphens: auto; }
+sup, sub { vertical-align: baseline; position: relative; }
+sup { top: -0.4em; }
+sub { top:  0.4em; }
+.heading { font-variant: small-caps; font-weight: bold; }
+.author { font-variant: small-caps; }
+#author { font-size: 16pt; }
